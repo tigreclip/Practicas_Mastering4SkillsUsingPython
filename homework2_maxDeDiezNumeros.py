@@ -3,7 +3,7 @@
 # Imprir resultado
 # RESTRICION: en todo el código SOLO debe haber 2 VARIABLES definidas
 
-#ASI ES COMO LO HE ECHO 
+#ASI ES COMO LO HE ECHO (más abajo está el ejercio como en el tutorial)
 resultado = float(input("Ingrese el primer número: ")) #lectura del primer resultado
 
 #lectura de los otros nueve números:
