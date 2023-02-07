@@ -16,5 +16,4 @@ Las líneas de código desde 3 hasta 6 se repiten MIENTRAS la condición sea cie
 
 Cada incremento se llama ITERACION:
 
-
 """
