@@ -13,9 +13,9 @@ if e1 < s2 or e2 < s1:
 # 1 6  3 8  -> 3 8
 else:
     if s1 < s2:
-        s1 = s2 # màximo de (s1, s2)
+        s1 = s2 # s1 es el màximo de (s1, s2)
     if e1 > e2:
-        e1 = e2 # mínimo de (e1, e2)
+        e1 = e2 # e1 es el mínimo de (e1, e2)
     print(s1, e1)
     
     """
