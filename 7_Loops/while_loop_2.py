@@ -29,7 +29,6 @@ print(sum) #15
 # Podemos usar la palabra BREAK para finalizar el bucle WHILE y continuar depués del bucle.
 """
 
-# Escribir un programa que SIGA leyendo 2 números e imprima su division en flotante
 while True:
     x, y = map(float,input("ingresa dos numeros: ").split())
     if y == 0:  #Si el 2º número es cero: ->finalizar el programa.
@@ -45,3 +44,15 @@ print("Bye") # ->imprime "Bye"
 # 10 2 -> 5.0
 # 5 0 -> "Y es cero!" -> "Bye"
 #
+
+
+###### USANDO CONTINUE ######
+
+while True:
+    x, y = map(float,input("ingresa dos numeros: ").split())
+    if y == 0:  #Si el 2º número es cero: ->finalizar el programa.
+        print("Y es cero!")
+        continue # cuendo el loop se para por un error..el código continua ejecutándose
+
+    print(x / y)
+print("Bye") # ->imprime "Bye"
