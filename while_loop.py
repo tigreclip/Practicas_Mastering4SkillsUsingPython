@@ -1,7 +1,7 @@
 x = 1 # Contador, se incrementa con cada ciclo 
 
 while x <= 5: # mientras se cumpla x <= 5...
-    #Imprime X #end=',': imprime la salida una linea separados por ','
+    #Imprime X #end=',': imprime el resultado en una linea, separado por ','
     print(x, end=',') 
     x += 1 # incrementa x con cada ciclo
 
