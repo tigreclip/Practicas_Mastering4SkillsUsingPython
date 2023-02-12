@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da17d809-0efb-4160-9705-16769d2db518" name="Changes" comment="continuación de ejercicios while loop" />
+    <list default="true" id="da17d809-0efb-4160-9705-16769d2db518" name="Changes" comment="for loop prácticas ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Loops/for_loop_homework_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_Loops/for_loop_homework_2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +32,17 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="79681a23-d252-43f4-a4c3-681ebdcac98f" />
+        <option name="accountId" value="ff74eecb-f9c7-4d56-900f-8450d012e524" />
         <option name="url" value="https://github.com/tigreclip/Practicas_Mastering4SkillsUsingPython.git" />
       </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="sortByName" value="true" />
   </component>
   <component name="ProjectId" id="2LUZZu9eMgWOXg1wb9GLxMNrjhn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,6 +56,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Msk8/Documents/GitHub/Practicas_Mastering4SkillsUsingPython&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
@@ -60,7 +68,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\pc\PycharmProjects\Practicas_Mastering4SkillsUsingPython\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (Practicas_Mastering4SkillsUsingPython)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7_Loops" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -140,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675959345417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="for loop prácticas ok">
+      <created>1676199560571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676199560571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +162,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -156,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="continuación de ejercicios while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="continuación de ejercicios while loop" />
+    <MESSAGE value="for loop prácticas ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loop prácticas ok" />
   </component>
 </project>
