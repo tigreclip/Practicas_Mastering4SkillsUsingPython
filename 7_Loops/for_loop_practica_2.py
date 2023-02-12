@@ -6,7 +6,7 @@ Encontrar todos los pares que cumplan:
         1 <= B <= M
 
 """
-N, M, SUM = map(int, input().split())  # crear las tres variables
+N, M, SUM = map(int, input().split())  # crea las tres variables
 cnt = 0
 
 for i in range(1, N + 1):
