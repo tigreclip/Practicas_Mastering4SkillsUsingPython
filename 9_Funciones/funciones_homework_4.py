@@ -13,11 +13,12 @@ def n_fib(n):
     a, b = 0, 1
     n -= 2
     while n > 0:
-        c = a + b 
-        a  = b
+        c = a + b
+        a = b
         b = c
         n -= 1
-    return c 
+    return c
+
 
 for i in range(1, 10):
     print((i, n_fib(i)))
