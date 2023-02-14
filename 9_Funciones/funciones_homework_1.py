@@ -12,11 +12,12 @@
 
 
 def special_multiplicacion(string):
-    resultado = ''
-    for index, caracter in enumerate(string): # enumerate da un index a cada elemento 0:a, 1:b...
-        resultado += caracter * (index + 1)
+    resultado = ''  # se guarda los strings generados
+    # bucle for en dos elementos a la vez
+    for index, caracter in enumerate(string): # se crean dos variables y se les asignan los valores provenientes de ENUMERATE(index = índice, caracter= item)
+        resultado += caracter * (index + 1)  # se añade a RESULTADO -->(caracter * (index + 1)el índice empieza en 0
     return resultado
 
 
-print(special_multiplicacion('abcxf'))
+print(special_multiplicacion('abcxf'))  # output:abbcccxxxxfffff
 
