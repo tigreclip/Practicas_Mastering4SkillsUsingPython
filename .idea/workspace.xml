@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da17d809-0efb-4160-9705-16769d2db518" name="Changes" comment="for loop prácticas 4 test ok">
+    <list default="true" id="da17d809-0efb-4160-9705-16769d2db518" name="Changes" comment="práctica de ejercicios for_loop, test ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Funciones/funciones_argumentos.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_Funciones/funciones_argumentos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,6 @@
   </component>
   <component name="Git.Settings">
     <branch-grouping />
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,17 +32,13 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="ff74eecb-f9c7-4d56-900f-8450d012e524" />
+        <option name="accountId" value="d3b637ad-2526-4e85-97dc-6132f957197d" />
         <option name="url" value="https://github.com/tigreclip/Practicas_Mastering4SkillsUsingPython.git" />
       </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-    <option name="sortByName" value="true" />
   </component>
   <component name="ProjectId" id="2LUZZu9eMgWOXg1wb9GLxMNrjhn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,15 +48,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Msk8/Documents/GitHub/Practicas_Mastering4SkillsUsingPython&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/pc/PycharmProjects/Practicas_Mastering4SkillsUsingPython/9_Funciones/return_multiple.py",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
+    <configuration name="funciones_argumentos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practicas_Mastering4SkillsUsingPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Funciones" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Funciones/funciones_argumentos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="return_multiple" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Practicas_Mastering4SkillsUsingPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pc\PycharmProjects\Practicas_Mastering4SkillsUsingPython\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (Practicas_Mastering4SkillsUsingPython)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Funciones" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Funciones/return_multiple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="while_loop_homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,8 +164,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.while_loop_homework_4" />
+      <item itemvalue="Python.return_multiple" />
+      <item itemvalue="Python.funciones_argumentos" />
+      <item itemvalue="Python.while_loop_homework" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.funciones_argumentos" />
         <item itemvalue="Python.while_loop_homework" />
       </list>
     </recent_temporary>
@@ -147,35 +193,7 @@
       <option name="project" value="LOCAL" />
       <updated>1675959345417</updated>
     </task>
-    <task id="LOCAL-00002" summary="for loop prácticas ok">
-      <created>1676199560571</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1676199560571</updated>
-    </task>
-    <task id="LOCAL-00003" summary="for loop prácticas ok">
-      <created>1676213465196</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676213465196</updated>
-    </task>
-    <task id="LOCAL-00004" summary="for loop prácticas ok">
-      <created>1676215550951</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676215550951</updated>
-    </task>
-    <task id="LOCAL-00005" summary="for loop prácticas 4 test ok">
-      <created>1676221911651</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676221911651</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,13 +201,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -197,9 +209,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="continuación de ejercicios while loop" />
-    <MESSAGE value="for loop prácticas ok" />
-    <MESSAGE value="for loop prácticas 4 test ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="for loop prácticas 4 test ok" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuación de ejercicios while loop" />
   </component>
 </project>
