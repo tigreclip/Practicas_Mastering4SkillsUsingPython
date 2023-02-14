@@ -1,7 +1,7 @@
 """
 Leer T para número de test
 para cada test, leer entero N
-depués leer N enteros a, b, c...en líneas separadas
+depués leer N enteros a, b, c... en líneas separadas
 calcular la suma de:
     (a, b*b, c*c*c*, d*d*d*d, e*e*e*e*)
     (número k repetido k veces
