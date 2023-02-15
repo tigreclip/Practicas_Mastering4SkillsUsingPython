@@ -1,5 +1,6 @@
-# Leer 2 enteros A,B e imprimir según casos:
-A, B = map(int,input("ingresa dos numeros separados por un espacio: ").split()) # se crean dos variables de enteros usando MAP para convertir en enteros los INPUTS
+# Leer 2 enteros A, B e imprimir según casos:
+A, B = map(int, input("ingresa dos números separados por un espacio: ").split())  # se crean dos variables de enteros
+# usando MAP para convertir en enteros los INPUTS
 
 # BOOLEAN para saber si es IMPAR
 imparA = A % 2 != 0 
@@ -7,7 +8,7 @@ imparB = B % 2 != 0
 
 # Si AMBOS son IMPARES, imprimir el PRODUCTO A*B
 if imparA and imparB:
-    print (A * B)
+    print(A * B)
 
 # Si AMBOS son PARES, imprimir la DIVISION A/B (division decimal / asumimos B!=0)
 elif not imparA and not imparB:
