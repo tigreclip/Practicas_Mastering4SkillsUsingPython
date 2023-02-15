@@ -10,7 +10,7 @@ def is_prime(n):
     if n <= 1:  # si no es 1, no es primo
         return False
     for i in range(2, n):
-        if n % i == 0:  # 0 indica que no es primo
+        if n % i == 0:  # 0 indica que NO es primo
             return False
         return True  # equivale a "else: return True" sin necesidad de indicarlo
 
