@@ -11,7 +11,7 @@ Ver captura de pantalla
 
 # Class editor tiene dos objetos: rectángulo y círculo
 class Rectangulo:  # Class: plantilla con la que crear objetos
-    def __init__(self, ancho, alto):  # Constructor, Parámetros
+    def __init__(self, ancho, alto):  # Constructor, asigna valores a los parámetros
         self.ancho = ancho  # ATRIBUTO
         self.alto = alto  # ATRIBUTO
 
@@ -31,9 +31,9 @@ class Circulo:
 class Editor:  # Objeto
     def __init__(self):  # Constructor
         self.rectang = None  # Crea método para inicializar rectángulo SIN CREARLO
-        #                      (mas abajo se checkea este atributo para saber si existe o no el objeto)
+        #                      (mas abajo se comprueba este atributo para saber si existe o no el objeto)
         self.circulo = None  # Crea método para inicializar rectángulo SIN CREARLO
-        #                      (mas abajo se checkea este atributo para saber si existe o no el objeto)
+        #                      (mas abajo se comprueba este atributo para saber si existe o no el objeto)
 
     def crear_rectangulo(self, ancho, alto):  # Método
         self.rectang = Rectangulo(ancho, alto)  # Atributo
@@ -64,16 +64,17 @@ class Editor:  # Objeto
         if self.rectang != None:  # Comprueba que el rectángulo existe
             print(f'Área del rectángulo: {self.rectang.area_rectangulo()}')  # imprime, en caso positivo
 
-        if self.circulo != None:  # Comprueba que el círculo existe
+        if \
+                self.circulo != None:  # Comprueba que el círculo existe
             print(f'Área del círculo: {self.circulo.area_circulo()}')  # imprime, en caso positivo
 
 
-editor = Editor()
-editor.crear_rectangulo(3, 5)
+editor = Editor() # Instancia de Editor
+editor.crear_rectangulo(3, 5)  # Método para crear rectángulo
 editor.print()  # "Área del rectángulo: 15"
 
-editor.crea_circulo(5)
-editor.cambiar_circulo(2)
+editor.crea_circulo(5) # Método para crear círculo
+editor.cambiar_circulo(2) # Método para añadir factor a
 editor.print()  # Área del círculo: 153.86
 
 #   p.ej. si Rectangulo=(3,5)
