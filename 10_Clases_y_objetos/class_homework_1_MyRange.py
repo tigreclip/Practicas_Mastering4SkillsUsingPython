@@ -15,7 +15,7 @@ class MiRango:
 
 rng = MiRango(5, 10, 1) # rango de 5-10 con paso de 1
 
-while rng.siguiente():  # mientras siguiente True(hay un siguiente número9
+while rng.siguiente():  # mientras siguiente True(hay un siguiente número)
     print(rng.usar_siguiente(), end=' ')  # imprimir usar_siguiente con espacio al final
 
 print()  # imprimir espacio, mejor legibilidad del código
