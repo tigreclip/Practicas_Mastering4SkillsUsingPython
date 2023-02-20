@@ -43,3 +43,11 @@ print(mi_lista.index('wow'))  # 1
 # CLEAR: VACIA la lista
 mi_lista.clear()
 print(mi_lista)
+
+# COUNT: CUENTA cuántos elementos IGUALES hay
+mi_lista = [4, 5, 7, 4, 5, 4, 8]
+print(mi_lista.count(4))  # 3
+print(mi_lista.count([4, 5]))  # 0 -->porque busca UNA lista, no DOS elementos
+
+mi_lista = ['ole', 'OLE', 'ole']
+print(mi_lista.count('ole'))  # 2
