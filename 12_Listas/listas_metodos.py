@@ -38,9 +38,9 @@ print(mi_lista)  # [5, 'wow', 10, 2, 3]
 print(mi_lista.index('wow'))  # 1
 
 # ValueError: 'yiuuS' is not in list
-# print(mi_lista.index('yiuuS'))ç
+# print(mi_lista.index('yiuuS')) # error, NO EXISTE el elemento
 
-# CLEAR: VACIA la lista
+# CLEAR: VACÍA la lista
 mi_lista.clear()
 print(mi_lista)
 
@@ -51,3 +51,31 @@ print(mi_lista.count([4, 5]))  # 0 -->porque busca UNA lista, no DOS elementos
 
 mi_lista = ['ole', 'OLE', 'ole']
 print(mi_lista.count('ole'))  # 2
+
+
+# + vs +=
+# += comportamiento similar a .extend
+lst = [1, 2, 3]
+print(id(lst))  # id 2266422923328
+lst += [4]  # += incorporado en python , añade y NO MODIFICA ninguna estructura de datos
+print(id(lst))  # id 2266422923328 NO CAMBIA la ubicación en la memoria
+
+
+# +
+lst = lst + [5]  # añade y CAMBIA LA UBICACIÓN EN LA MEMORIA
+print(id(lst))  # id 3124383113984
+
+# AÑADIR 1 ELEMENTO - añade 1 elemento lista a la lista
+lst += ['Hola']  # itera sobre la lista y AÑADE 1 elementos
+print(lst)   # [1, 2, 3, 4, 5, 'Hola']
+
+# AÑADIR VARIOS ELEMENTOS - str
+lst += 'Hola'  # itera sobre la lista y AÑADE VARIOS elementos, sin ser lista. ESTO CON = DARÍA ERROR
+print(lst)  # [1, 2, 3, 4, 5, 'Hola', 'H', 'o', 'l', 'a']
+
+
+#ERRORES
+#TypeError: can only concatenate list (not "str") to list
+lst = lst + 'hey' # CUANDO USAMOS '=' SOLO SE PUEDEN CONCATENAR UNA LISTA A OTRA, con += sí se puede
+lst = lst + 10
+
