@@ -19,7 +19,7 @@ print(lst1 <= lst3)  # False, lst3 es menor
 print(lst1 <= lst4)  # True
 
 # ERROR: NO SE PUEDE COMPARARint(números) y str(letras) , PERAS < MANZANAS = ERROR
-print([1, 2] < ['Miguel'])
+# print([1, 2] < ['Miguel'])
 # TypeError: '<' not supported between instances of 'int' and 'str
 
 
