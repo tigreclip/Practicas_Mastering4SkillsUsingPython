@@ -11,5 +11,4 @@
 #   idx1 2 value 30
 #   idx2 4 value 30
 
-lst = list(map(int,(input().split())))
-print(lst)
+lst = list(map(int, (input().split())))
