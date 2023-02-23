@@ -1,4 +1,4 @@
-# ENCUENTRA EL ÍNDICE MAS ALTO DE 2 VALORES MÁXIMOS
+# ENCUENTRA EL ÍNDICE MS ALTO DE 2 VALORES MÁXIMOS
 # Leer una línea de N enteros (todos en la misma línea)
 # Encontrar el índice del máximo valor y del 2º máximo valor
 #   si hay más de una respuesta: encontrar la primera coincidencia
