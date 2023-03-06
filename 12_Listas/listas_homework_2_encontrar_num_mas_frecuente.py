@@ -9,8 +9,8 @@ Input             --> Output
 
 def mas_frecuente(lst):
     # cambiamos todos los datos para empzar de CERO(asi indexamos con normalidad)
-    # mas tarde desaremos el efecto
-    # para esto: sólo restar el mínimo
+    # mas tarde desharemos el efecto
+    # para hacer esto: sólo restar el mínimo
     # p. ej. si input es -10 20 -2 9 20
     # el mínimo es -10
     # restado de todos: 0 30 8 19 30
